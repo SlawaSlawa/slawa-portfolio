@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+    .nav, .hero__desc-wrap, .about__text-wrap, .skills__desc, .skills__item-wrap, .social, .portfolio__items-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+
+/* HEADER */
+@media (max-width: 538px) {
+    .hero__desc-wrap {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .hero__desc {
+        line-height: 28px;
+        margin-left: 0;
+    }
+}
+/* ///HEADER */
+
+/* SKILLS */
+@media (max-width: 400px) {
+    .skills__item-wrap {
+        flex-direction: column;
+    }
+    .skills__item {
+        margin-bottom: 26px;
+    }
+}
+/* ///SKILLS */
+
+/* PORTFOLIO */
+@media (max-width: 1024px) {
+    .portfolio__item {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 785px) {
+    .portfolio__items-wrap {
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portfolio__item {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 590px) {
+    .portfolio__items-wrap {
+        justify-content: space-around;
+    }
+    .portfolio__item {
+        width: 320px;
+    }
+}
+/* ///PORTFOLIO */
+
+/* NAV */
+
+@media (max-width: 555px) {
+    .burger-container {
+        display: block;
+    }
+    .hero__desc-wrap {
+        padding-top: 50px;
+    }
+    .nav {
+        flex-direction: column;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        background-color: #fff;
+        transition: .3s;
+        left: -100%;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+/* ///NAV */
+
+/* FOOTER */
+.skills__desc  {
+    margin-bottom: 60px;
+}
+.social {
+    flex-direction: column;
+}
+
+.social__item {
+    margin-bottom: 26px;
+}
+
+.send-btn {
+    margin-bottom: 60px;
+}
+/* ///FOOTER */
+

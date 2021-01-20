@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "link": "https://slawaslawa.github.io/old-portfolio-normsait/",
+        "img": "./img/portfolio-thumbs/old-portfolio.jpg",
+        "overlay-text": "Мой первый сайт-портфолио, который был выложен на реальном хостинге",
+        "desc": "Старый сайт-портфолио",
+        "alt": "Сайт-портфолио"
+    },
+    {
+        "id": 1,
+        "link": "https://slawaslawa.github.io/legal/",
+        "img": "./img/portfolio-thumbs/legal.jpg",
+        "overlay-text": "Сайт юридической компании макет был взят из интернета",
+        "desc": "Legal liberty",
+        "alt": "Legal liberty"
+    },
+    {
+        "id": 2,
+        "link": "https://slawaslawa.github.io/leo-shop/",
+        "img": "./img/portfolio-thumbs/leo-shop.jpg",
+        "overlay-text": "Интернет-магазин солнечных очков, макет был взят из интернета",
+        "desc": "Интернет-магазин солнечных очков",
+        "alt": "Leo-shop"
+    },
+    {
+        "id": 3,
+        "link": "https://slawaslawa.github.io/gruzhu-vozhu/",
+        "img": "./img/portfolio-thumbs/gruzhu-vozhu.jpg",
+        "overlay-text": "Сайт был сделан без макета",
+        "desc": "Гружу-Вожу",
+        "alt": "Гружу-Вожу"
+    },
+    {
+        "id": 4,
+        "link": "https://slawaslawa.github.io/the-witcher/",
+        "img": "./img/portfolio-thumbs/witcher.jpg",
+        "overlay-text": "С интенсива GLO-academy",
+        "desc": "Ведьмак",
+        "alt": "Ведьмак"
+    },
+    {
+        "id": 5,
+        "link": "https://slawaslawa.github.io/unicorn/",
+        "img": "./img/portfolio-thumbs/unicorn.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "Unicorn",
+        "alt": "Unicorn"
+    },
+    {
+        "id": 6,
+        "link": "https://slawaslawa.github.io/moneyex/",
+        "img": "./img/portfolio-thumbs/moneyex.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "MoneyEx",
+        "alt": "MoneyEx"
+    },
+    {
+        "id": 7,
+        "link": "https://slawaslawa.github.io/brovi/",
+        "img": "./img/portfolio-thumbs/brovi.jpg",
+        "overlay-text": "Макет придумал сам по реальному заказу",
+        "desc": "Онлайн-школа",
+        "alt": "Онлайн-школа"
+    },
+    {
+        "id": 8,
+        "link": "https://slawaslawa.github.io/my-todo/",
+        "img": "./img/portfolio-thumbs/todo.jpg",
+        "overlay-text": "ToDo-приложение написанное на нативном JS",
+        "desc": "ToDo-приложение",
+        "alt": "ToDo"
+    }
+]

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт-портфолио</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__item">
+                    <a href="#home" class="nav__link nav__link-active">Главная</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#about" class="nav__link">Обо мне</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#skills" class="nav__link">Скилы</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#portfolio" class="nav__link">Портфолио</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                </div>
+            </nav>
+            <div class="hero">
+                <div class="burger-container">
+                    <div class="burger-row"></div>
+                </div>
+                <div class="hero__desc-wrap">
+                    <h1 class="logo">Вячеслав Гусев</h1>
+                    <p class="hero__desc">
+                        Фронтэнд-разработчик<br>33 года, г.Ульяновск
+                    </p>
+                </div>
+                <div class="hero__img-wrap">
+                    <img src="./img/author.jpg" alt="Вячеслва Гусев" class="hero__img">
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+    </header>
+    <!-- /.header -->
+    <section id="about" class="section about">
+        <h2 class="section-title">Обо мне</h2>
+        <div class="about__text-wrap">
+            <p class="about__text">
+                Всем привет! Меня зовут Слава! Я из города Ульяновск!
+                Интересуюсь web-разработкой!
+            </p>
+            <p class="about__text">
+                Front-end изучал по книгам и видеороликам на ютуб, а также по статьям и заметкам на различных
+                интернет-сайтах!
+            </p>
+            <p class="about__text">
+                Также увлекаюсь музыкой и чтением книг!
+            </p>
+        </div>
+    </section>
+    <!-- /.about -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Мои скилы</h2>
+            <h3 class="skills__desc">
+                Изучил:
+            </h3>
+            <div class="skills__item-wrap">
+                <div class="skills__item">
+                    <i class="fab fa-html5 skills__item--html"></i>
+                    <div class="skills__item-desc">
+                        HTML 5
+                    </div>
+                </div>
+                <!-- /.skills__item -->
+
+                <div class="skills__item">
+                    <i class="fab fa-css3-alt skills__item--css"></i>
+                    <div class="skills__item-desc">
+                        CSS 3
+                    </div>
+                </div>
+                <!-- /.skills__item -->
+
+                <div class="skills__item">
+                    <i class="fab fa-js skills__item--js"></i>
+                    <div class="skills__item-desc">
+                        JavaScript
+                    </div>
+                </div>
+                <!-- /.skills__item -->
+            </div>
+            <!-- /.skills__item-wrap -->
+
+            <h3 class="skills__desc">
+                Также есть опыт работы с:
+                <b>jQuery</b>,
+                <b>Bootstrap</b>,
+                <b>WordPress</b>,
+                <b>Bitrix24</b>
+            </h3>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.skills -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title section-title--portfolio">Портфолио</h2>
+
+            <div id="portfolioItemsWrap" class="portfolio__items-wrap">
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/old-portfolio-normsait/" class="portfolio__item-link"
+                        target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/old-portfolio.jpg" alt="Сайт-портфолио">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Мой первый сайт-портфолио, который был выложен на реальном хостинге
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Старый сайт-портфолио
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/legal/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/legal.jpg" alt="Сайт юридической компании">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Сайт юридической компании макет был взят из интернета
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Legal liberty
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/leo-shop/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/leo-shop.jpg" alt="Сайт-портфолио">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Интернет-магазин солнечных очков, макет был взят из интернета
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Интернет-магазин солнечных очков
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/gruzhu-vozhu/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/gruzhu-vozhu.jpg" alt="Сайт-портфолио">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Сайт был сделан без макета
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Гружу-Вожу
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/the-witcher/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/witcher.jpg" alt="Ведьмак">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    С интенсива GLO-academy
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Ведьмак
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/unicorn/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/unicorn.jpg" alt="Unicorn">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Макет взят из интернета
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Unicorn
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/moneyex/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/moneyex.jpg" alt="MoneyEx">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Макет взят из интернета
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            MoneyEx
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/brovi/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/brovi.jpg" alt="MoneyEx">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    Макет придумал сам
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Онлайн-школа
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+
+                <div class="portfolio__item">
+                    <a href="https://slawaslawa.github.io/my-todo/" class="portfolio__item-link" target="_blank">
+
+                        <div class="portfolio__item-img">
+                            <img src="./img/portfolio-thumbs/todo.jpg" alt="ToDo">
+
+                            <div class="portfolio__overlay">
+                                <p class="portfolio__overlay-desc">
+                                    ToDo-приложение
+                                </p>
+                            </div>
+                        </div>
+
+                        <span class="portfolio__item-desc">
+                            Онлайн-школа
+                        </span>
+
+                    </a>
+
+                </div>
+                <!-- /.portfolio__item -->
+
+            </div>
+            <!-- /.portfolio__items-wrap -->
+            <button id="btnMore" class="btn btn--more">Посмотреть ещё</button>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section portfolio -->
+
+    <footer id="contacts" class="section footer">
+        <div class="container">
+            <h2 class="section-title">Мои контакты</h2>
+            <h3 class="skills__desc">
+                Свяжитесь со мной:
+            </h3>
+            <button id="btnSend" class="btn send-btn">Написать мне</button>
+
+            <div class="social">
+                <div class="social__item">
+                    <a href="tel:89084763352" class="social__item-link" target="_blank">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="social__item-desc">
+                            +7 908 276 3352
+                        </span>
+                    </a>
+                </div>
+                <!-- /.social__item -->
+                <div class="social__item">
+                    <a href="https://vk.com/id95974385" class="social__item-link" target="_blank">
+                        <i class="fab fa-vk"></i>
+                        <span class="social__item-desc">
+                            https://vk.com/id95974385
+                        </span>
+                    </a>
+                </div>
+                <!-- /.social__item -->
+                <div class="social__item">
+                    <a href="mailto:slawapocht4@yandex.ru" class="social__item-link" target="_blank">
+                        <i class="far fa-envelope"></i>
+                        <span class="social__item-desc">
+                            slawapocht4@yandex.ru
+                        </span>
+                    </a>
+                </div>
+                <!-- /.social__item -->
+                <div class="social__item">
+                    <a href="https://github.com/SlawaSlawa" class="social__item-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span class="social__item-desc">
+                            https://github.com/SlawaSlawa
+                        </span>
+                    </a>
+                </div>
+                <!-- /.social__item -->
+            </div>
+            <!-- /.social -->
+            <div class="copy">by Slawa 2021</div>
+        </div>
+
+    </footer>
+    <a href="#home" id="btnUp" class="btn btn-up">Наверх</a>
+    <!-- /.btn-up -->
+    <div id="modal" class="modal">
+        <div class="modal__text-wrap">
+            <p class="modal__text">
+                К сожалению функционал GitHub не разрешает запрограммировать функцию оправки сообщений
+            </p>
+            <i id="modalClosedBtn" class="far fa-times-circle"></i>
+        </div>
+    </div>
+    <!-- /.modal -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
