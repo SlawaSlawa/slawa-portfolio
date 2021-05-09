@@ -70,5 +70,14 @@
         "overlay-text": "ToDo-приложение написанное на нативном JS",
         "desc": "ToDo-приложение",
         "alt": "ToDo"
+    },
+    {
+        "id": 9,
+        "link": "https://slawaslawa.github.io/js-what-is-your-character/",
+        "img": "./img/what-is-your-character.jpg",
+        "overlay-text": "Тест-приложение написанное на нативном JS",
+        "desc": "Тест - Каков Ваш характер",
+        "alt": "Каков Ваш характер"
     }
+
 ]
