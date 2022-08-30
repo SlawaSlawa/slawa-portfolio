@@ -90,7 +90,6 @@ request.addEventListener('readystatechange', function () {
 request.send();
 
 function btnMoreEvent() {
-    console.log('click: ');
     portfolioItemsWrap.textContent = '';
     countCard += countCard;
     renderPortfolioItem(JSON.parse(data));
@@ -98,8 +97,10 @@ function btnMoreEvent() {
 
 function renderPortfolioItem(data) {
     let count = 0;
-    data.forEach((card) => {
+
+    for (let i = data.length - 1; i >= 0; i--) {
         count++;
+
         if (countCard > data.length) {
             btnMore.removeEventListener('click', btnMoreEvent);
             btnMore.style.opacity = '0.6';
@@ -110,21 +111,21 @@ function renderPortfolioItem(data) {
             const portfolioItemElem =
                 `
             <div class="portfolio__item">
-                <a href="${card.link}" class="portfolio__item-link"
+                <a href="${data[i].link}" class="portfolio__item-link"
                     target="_blank">
 
                     <div class="portfolio__item-img">
-                        <img src="${card.img}" alt="${card.alt}">
+                        <img src="${data[i].img}" alt="${data[i].alt}">
 
                         <div class="portfolio__overlay">
                             <p class="portfolio__overlay-desc">
-                                ${card["overlay-text"]}
+                                ${data[i]["overlay-text"]}
                             </p>
                         </div>
                     </div>
 
                     <span class="portfolio__item-desc">
-                        ${card.desc}
+                        ${data[i].desc}
                     </span>
 
                 </a>
@@ -134,8 +135,7 @@ function renderPortfolioItem(data) {
         `;
             portfolioItemsWrap.insertAdjacentHTML('beforeend', portfolioItemElem);
         }
-
-    });
+    }
 }
 // ///RENDER PORTFOLIO
 

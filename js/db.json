@@ -78,6 +78,13 @@
         "overlay-text": "Тест-приложение написанное на нативном JS",
         "desc": "Тест - Каков Ваш характер",
         "alt": "Каков Ваш характер"
+    },
+    {
+        "id": 10,
+        "link": "https://slawaslawa.github.io/moreOrLess/",
+        "img": "./img/portfolio-thumbs/more-or-less.jpg",
+        "overlay-text": "Больше-Меньше-приложение написанное на нативном JS",
+        "desc": "Игра - Больше-Меньше",
+        "alt": "Больше-Меньше"
     }
-
 ]

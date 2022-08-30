@@ -268,6 +268,11 @@ body {
     flex-wrap: wrap;
 }
 
+/* .portfolio__items-wrap::after {
+    content: "";
+    flex-basis: 30%;
+} */
+
 .portfolio__item-link {
     display: inline-block;
     text-decoration: none;
@@ -291,6 +296,7 @@ body {
     padding-bottom: 18px;
     margin-bottom: 60px;
     overflow: hidden;
+    /* flex-basis: 30%; */
 }
 
 .portfolio__overlay {
