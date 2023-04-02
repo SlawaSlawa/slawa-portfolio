@@ -86,5 +86,29 @@
         "overlay-text": "Больше-Меньше-приложение написанное на нативном JS",
         "desc": "Игра - Больше-Меньше",
         "alt": "Больше-Меньше"
+    },
+    {
+        "id": 11,
+        "link": "https://slawaslawa.github.io/for-portfolio-aquapark/dist/",
+        "img": "./img/portfolio-thumbs/aqaupark.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "Аквапарк",
+        "alt": "Аквапарк"
+    },
+    {
+        "id": 12,
+        "link": "https://slawaslawa.github.io/for-portfolio-voda-vyatskaya/",
+        "img": "./img/portfolio-thumbs/voda-vyatskaya.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "Вода Вятская",
+        "alt": "Вода Вятская"
+    },
+    {
+        "id": 13,
+        "link": "https://slawaslawa.github.io/for-portfolio-nutri-site/",
+        "img": "./img/portfolio-thumbs/nutri-site.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "Nutri-site",
+        "alt": "Nutri-site"
     }
 ]
