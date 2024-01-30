@@ -110,5 +110,13 @@
         "overlay-text": "Макет взят из интернета",
         "desc": "Nutri-site",
         "alt": "Nutri-site"
+    },
+    {
+        "id": 14,
+        "link": "https://slawaslawa.github.io/for-portfolio-hungry-people/",
+        "img": "./img/portfolio-thumbs/hungry-people.jpg",
+        "overlay-text": "Макет взят из интернета",
+        "desc": "Hungry-People",
+        "alt": "Hungry-People"
     }
 ]
