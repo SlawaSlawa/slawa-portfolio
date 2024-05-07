@@ -125,6 +125,15 @@
         "img": "./img/portfolio-thumbs/alco-test.jpg",
         "overlay-text": "Приложение для проверки водителей",
         "desc": "Alco-Test",
-        "alt": "Alco-Tesr"
+        "alt": "Alco-Test"
+    },
+    {
+        "id": 16,
+        "link": "https://slawaslawa.github.io/for-portfolio-dino-game/",
+        "img": "./img/portfolio-thumbs/dino-game.jpg",
+        "overlay-text": "Игра Динозаврик)",
+        "desc": "Dino",
+        "alt": "Dino"
     }
 ]
+
