@@ -158,6 +158,14 @@
         "overlay-text": "Мини игра - Гоночки)",
         "desc": "Racing-game",
         "alt": "Racing-game"
+    },
+    {
+        "id": 20,
+        "link": "https://slawaslawa.github.io/for-portfolio-snake-game/",
+        "img": "./img/portfolio-thumbs/snake-game.jpg",
+        "overlay-text": "Мини игра - Змейка)",
+        "desc": "Snake-game",
+        "alt": "Snake-game"
     }
 ]
 
