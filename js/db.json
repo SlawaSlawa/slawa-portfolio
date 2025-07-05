@@ -166,6 +166,14 @@
         "overlay-text": "Мини игра - Змейка)",
         "desc": "Snake-game",
         "alt": "Snake-game"
+    },
+    {
+        "id": 21,
+        "link": "https://slawaslawa.github.io/for-portfolio-flappy-bird-game/",
+        "img": "./img/portfolio-thumbs/portfolio-flappy-bird-game.jpg",
+        "overlay-text": "Мини игра - Flappy Bird)",
+        "desc": "Flappy Bird",
+        "alt": "Flappy Bird"
     }
 ]
 
